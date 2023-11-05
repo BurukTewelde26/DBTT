@@ -8,17 +8,18 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class QueryprojectionjpaApplication implements CommandLineRunner {
+
+public class QueryprojectionjpaApplication  {
 
 	public static void main(String[] args) {
 		SpringApplication.run(QueryprojectionjpaApplication.class, args);
 	}
 	@Autowired
 	AuthorRepository authorRepository;
-	@Override
+	/*@Override
 	public void run(String... args) throws Exception {
 		Author author1 = new Author("Abebe", "Balcha");
 		authorRepository.save(author1);
 		System.out.println(authorRepository.findViewByFirstName("Alex").toString());
-	}
+	}*/
 }
