@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'IVC-Boot'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_32601E31F8864A44AC2BB7EF3A224B32 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_501F5C27E58E453683F4B864F4AA0876 }}
           package: '*.jar'
